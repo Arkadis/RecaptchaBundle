@@ -1,13 +1,13 @@
 <?php
 /**
- * This file is part of the DmishhRecaptchaBundle package.
+ * This file is part of the ArkadisRecaptchaBundle package.
  *
- * (c) Dmitriy Scherbina
+ * (c) Pablo Lozano
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Dmishh\Bundle\RecaptchaBundle\Validator\Constraints;
+namespace Arkadis\Bundle\RecaptchaBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 

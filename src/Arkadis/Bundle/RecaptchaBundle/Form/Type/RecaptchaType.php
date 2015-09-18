@@ -1,15 +1,15 @@
 <?php
 /**
- * This file is part of the DmishhRecaptchaBundle package.
+ * This file is part of the ArkadisRecaptchaBundle package.
  *
- * (c) Dmitriy Scherbina
+ * (c) Pablo Lozano
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Dmishh\Bundle\RecaptchaBundle\Form\Type;
+namespace Arkadis\Bundle\RecaptchaBundle\Form\Type;
 
-use Dmishh\Bundle\RecaptchaBundle\Validator\Constraints;
+use Arkadis\Bundle\RecaptchaBundle\Validator\Constraints;
 use Recaptcher\RecaptchaInterface;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormInterface;

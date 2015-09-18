@@ -1,15 +1,15 @@
 <?php
 /**
- * This file is part of the DmishhRecaptchaBundle package.
+ * This file is part of the ArkadisRecaptchaBundle package.
  * Based on UsernamePasswordFormAuthenticationListener from Symfony2 Security Component
  *
  * (c) Fabien Potencier
- * (c) Dmitriy Scherbina
+ * (c) Pablo Lozano
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Dmishh\Bundle\RecaptchaBundle\Security\Firewall;
+namespace Arkadis\Bundle\RecaptchaBundle\Security\Firewall;
 
 use Recaptcher\RecaptchaInterface;
 use Recaptcher\Exception\Exception;

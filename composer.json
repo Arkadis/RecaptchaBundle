@@ -1,21 +1,21 @@
 {
-    "name": "dmishh/recaptcha-bundle",
+    "name": "arkadis/recaptcha-bundle",
     "description": "reCAPTCHA support for Symfony2 with easy-to-use integration to Security Component.",
     "keywords": ["symfony2", "bundle", "recaptcha"],
-    "homepage": "https://github.com/dmishh/RecaptchaBundle",
+    "homepage": "https://github.com/Arkadis/RecaptchaBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dmitriy Scherbina",
-            "homepage": "http://dmishh.com"
+            "name": "Pablo Lozano",
+            "homepage": "http://www.arkadis.es"
         }
     ],
     "require": {
-        "symfony/framework-bundle": "~2.1",
-        "symfony/security": "~2.1",
-        "symfony/form": "~2.1",
-        "symfony/validator": "~2.1",
+        "symfony/framework-bundle": "~2.7",
+        "symfony/security": "~2.7",
+        "symfony/form": "~2.7",
+        "symfony/validator": "~2.7",
         "dmishh/recaptcher": "1.0.*"
     },
     "minimum-stability": "dev",

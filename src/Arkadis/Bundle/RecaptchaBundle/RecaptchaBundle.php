@@ -1,15 +1,15 @@
 <?php
 /**
- * This file is part of the DmishhRecaptchaBundle package.
+ * This file is part of the ArkadisRecaptchaBundle package.
  *
- * (c) Dmitriy Scherbina
+ * (c) Pablo Lozano
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Dmishh\Bundle\RecaptchaBundle;
+namespace Arkadis\Bundle\RecaptchaBundle;
 
-use Dmishh\Bundle\RecaptchaBundle\DependencyInjection\Compiler\FormPass;
+use Arkadis\Bundle\RecaptchaBundle\DependencyInjection\Compiler\FormPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

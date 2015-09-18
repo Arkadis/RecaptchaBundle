@@ -1,6 +1,6 @@
 <?php
 
-namespace Dmishh\Bundle\RecaptchaBundle\DependencyInjection\Compiler;
+namespace Arkadis\Bundle\RecaptchaBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -4,13 +4,13 @@ services:
         arguments: [%recaptcha.public_key%, %recaptcha.private_key%, %recaptcha.use_https%]
 
     form.type.recaptcha:
-        class: Dmishh\Bundle\RecaptchaBundle\Form\Type\RecaptchaType
+        class: Arkadis\Bundle\RecaptchaBundle\Form\Type\RecaptchaType
         arguments: [@recaptcha]
         tags:
             - { name: form.type, alias: recaptcha }
 
     form.validator.recaptcha:
-        class: Dmishh\Bundle\RecaptchaBundle\Validator\Constraints\RecaptchaValidator
+        class: Arkadis\Bundle\RecaptchaBundle\Validator\Constraints\RecaptchaValidator
         scope: request
         arguments: [@recaptcha, @request]
         tags:
