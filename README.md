@@ -1,6 +1,6 @@
 # reCAPTCHA support for Symfony2
 
-This is a fork updated from https://github.com/Arkadis/RecaptchaBundle
+This is a fork updated from https://github.com/dmishh/RecaptchaBundle
 
 ## Features
 
